@@ -16,7 +16,7 @@ FROM quay.io/kubernetes-ingress-controller/debian-base-arm64:0.1
 
 COPY build.sh /build.sh
 
-ENV VERSION 2.1.5
+ENV VERSION 2.2.8
 ENV SHA256 c5f622a2d90db6249fe9a320b7209b89d8bc9b1933805ac1244ff3e0484b93cf
 
 RUN clean-install bash
